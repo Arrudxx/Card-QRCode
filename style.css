@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+#container {
+  background-color: #d5e1ef;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-container {
+  width: 320px;
+  height: 497px;
+  background-color: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#card-container-qrcode {
+  width: 288px;
+  height: 288px;
+  background-image: url(./assests/Oval.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-content {
+  padding-top: 24px;
+}
+
+#card-content-title h1 {
+  color: #1f314f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.72px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+}
+
+#card-content-subtitle p {
+  color: #7d889e;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
